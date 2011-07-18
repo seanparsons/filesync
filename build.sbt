@@ -14,8 +14,9 @@ libraryDependencies += "org.scala-tools.testing" %% "scalacheck" % "1.9" % "test
 
 initialCommands := """
     import com.futurenotfound.filesync._
-    import com.futurenotfound.filesync.FileTree._
     import java.io.File
     import scalaz._
     import scalaz.Scalaz._
 """
+
+traceLevel := 0
